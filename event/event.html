@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1400px">
+    <title>WEON</title>
+</head>
+
+<!-- 슬라이드 css -->
+<link href="css/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+<link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="images/fabicon.png">
+<body>
+    <div id="top" data-aos="fade-down">
+      <a href="../../index.html"><img src="images/rogoh.png" alt="" class="img1"></a>
+      <ul class="topl1">
+          <li><a href="../car/car_banner.html">차량</a></li>
+          <li><a href="../megazin/megazin.html">매거진</a></li>
+          <li><a href="../event/event.html">이벤트</a></li>
+          <li><a href="../company/company.html">회사소개</a></li>
+      </ul>
+      <ul class="topl2">
+          <li><a href="../login/login.html">로그인</a></li>
+          <li><a href="#">Language</a></li>
+      </ul>
+    </div>
+    <div id="header">
+        <h2>이벤트</h2>
+        <h3>고객님을 위한 이벤트는 계속 됩니다. 즐거운 행운과 경품을 만나보세요!</h3>
+    </div>
+    <div id="mid">
+         <!-- 슬라이드 구문 -->
+	  <div class="swiper-container slide">
+		<div class="swiper-wrapper">
+		  <div class="swiper-slide"><img src="images/event.png" alt="배너1"></div>
+		  <div class="swiper-slide"><img src="images/we.png" alt="배너2"></div>
+		  <div class="swiper-slide"><img src="images/on.png" alt="배너3"></div>
+		</div>
+		<!-- 화살표 버튼 -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<!-- 블릿 버튼 -->
+		<div class="swiper-pagination"></div>
+	  </div>
+    </div>
+    <div id="bottom">
+        <!-- <a href="#" class="a1"><div class="be1">
+            <h2>진행중인 이벤트</h2>
+        </div></a>
+        <a href="#" class="a2"><div class="be2">
+            <h2>종료된 이벤트</h2>
+        </div></a>
+        <a href="#" class="image1"><img src="images/event1.png" alt=""></a>
+        <a href="#" class="image2"><img src="images/event2.png" alt=""></a>
+        <a href="#" class="image3"><img src="images/event3.png" alt=""></a> -->
+        <div class="filter">
+            <ul>
+              <li id="filter1"><a href="#"><p>진행중인 이벤트</p></a></li>
+              <li id="filter2"><a href="#"><p>종료된 이벤트</p></a></li>
+            </ul>
+            <div class="filter_content">
+              <div class="filter1">
+                <a href="#" class="image1"><img src="images/event1.png" alt=""></a>
+              </div>
+
+              <div class="filter1">
+                <a href="#" class="image1"><img src="images/event2.png" alt=""></a>
+              </div>
+              <div class="filter1">
+                <a href="#" class="image1"><img src="images/event3.png" alt=""></a>
+              </div>
+              <div class="filter2"></div>
+            </div>
+
+            <!-- 높이 없애고 패딩으로 -->
+          </div>
+    </div>
+    <div id="foot">
+        <div class="foot_inner">
+            <img src="images/small_logo.png" alt="">
+            <ul class="bu">
+                <li><a href="#">고객지원</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">저작권 안내</a></li>
+            </ul>
+            <ul class="blogo">
+                <li><a href="#"><img src="images/tw.png" class="ff"></a></li>
+                <li><a href="#"><img src="images/insta.png" class="fff"></a></li>
+                <li><a href="#"><img src="images/fa.png" class="ffff"></a></li> 
+            </ul>
+            <p class="bp">고객센터 : 070-123-5678(직영), 070-456-5678(본사)<br>
+            COPYRIGHT ⓒ WEON COMPANY. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+    </div>
+    <!-- 슬라이드 js -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+	<script src="script/swiper.min.js"></script><!-- 수정X -->
+	<script src="script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+    <script src="script/filter.js"></script>
+    <script src="script/aos.js"></script><!-- aos 소스 -->
+</body>
+</html>
